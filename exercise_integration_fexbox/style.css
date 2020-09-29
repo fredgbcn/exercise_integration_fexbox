@@ -1,0 +1,217 @@
+
+@font-face {
+    font-family: 'ballpark';
+    src: url('polices/ballpark.eot') format('eot'),
+         url('polices/ballpark.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dayrom';
+    src: url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body
+{
+	background-image: url(images/fond_jaune.png);
+}
+.general
+{
+	width: 900px;
+	margin: auto;
+	font-size: 20px;
+	font-family: dayrom, sans-serif;
+
+}
+header
+{
+
+}
+.sstitre
+{
+	font-size: 0.9em;
+}
+h1
+{
+	font-size: 0.8em;
+	text-transform: uppercase;	
+}
+p
+{
+	font-size: 0.7em;
+}
+nav
+{
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+
+}
+.menu, li
+{
+	display: inline;
+}
+.menu
+{
+	text-transform: uppercase;
+	font-size: 1em;
+	list-style-type: none;
+}
+
+
+.logo
+{
+	font-size: 1.8em;
+	color: black;
+	text-decoration: none;
+	font-family: ballpark, sans-serif;
+}
+.separateur
+{
+		width: 100%;
+		height: 3px;
+		margin-bottom: 10px;
+}
+
+.bandeau
+{
+	box-shadow: 5px 5px 5px black;
+	border-radius: 6px;
+	background-image: url(images/sanfrancisco.jpg);
+	height: 219px;	
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+
+}
+.txtbandeau
+{
+	font-size: 20px;
+	margin-bottom: 2px;
+	width: 100%;
+	color: white;
+	background-color: rgba(10, 10, 10, 0.8);
+	display: flex;
+	border-radius: 0 0 6px 6px;
+	font-style: verdana;
+}
+
+.bouton
+{
+	margin-top: 10px;
+	margin-left: 510px;
+	background-image: url(images/fond_degraderouge.png);
+	height: 30px;
+	border-radius: 6px;
+	width: 115px;
+	background-repeat: repeat;
+	color: white;
+	text-decoration:none;
+	font-size: 0.9em;
+	padding-top: 3px;
+	padding-left: 3px;
+}
+#conteneur
+{
+		display: flex;
+		font-size: 19px;
+
+}
+.text
+{
+	flex: 2.1;
+
+}
+
+.apropos
+{
+	padding: 10px 10px 10px 10px;
+	flex: 0.9;
+	text-align: center;
+	color: white;
+	border-radius: 6px;
+	background-color: #706B64;
+	margin-top: 20px;
+	font-size: 0.9em;
+}
+.fleche
+{
+
+		flex: 0.001;
+		position; absolute;
+	margin-top: 50px;
+}
+h2
+{
+		text-transform: uppercase;
+
+}
+.apropos p
+{
+	text-align: justify;
+}
+h3
+{
+	font-size: 1em;
+	font-style: none;
+	text-decoration: none;
+}
+.mesamis, a
+{
+	font-size: 0.6em;
+	text-decoration: none;
+
+}
+footer
+{
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.cesure
+{
+	background-image: url(images/separateur.png);
+		width: 100%;
+		height: 3px;
+		margin-bottom: 0px;
+		margin-top: 15px;
+
+}
+.icotop
+{
+	margin-left: 50%;
+}
+.ptitefleche
+{
+	margin-top: 0px;
+}
+.liste1 ul li
+{
+	display: block;
+	line-height: 15px;
+	
+}
+.liste1
+{
+		color: #840400;
+	display: flex;
+	padding: 0px 0px 0px 0px;
+}
+.liste1 ul
+{
+
+	margin-top: 0px;
+	margin-right: 5px;
+	padding-left: 0px;
+}
+#photo
+{
+	border: 1px solid black;
+}
